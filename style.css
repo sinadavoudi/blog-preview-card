@@ -12,9 +12,10 @@ body {
 }
 .box {
     display: flex;
+    justify-content: center;
     flex-direction: column;
     background-color: white;
-    width: 300px;
+    width: 280px;
     border: 1px solid black;
     border-radius: 20px;
     position: absolute;
@@ -24,6 +25,7 @@ body {
     padding: 20px;
     -webkit-box-shadow: 15px 15px 0px 1px #000000; 
     box-shadow: 15px 15px 0px 1px #000000;
+    margin-left: -5px;
 }
 .box img {
     border-radius: 12px;
